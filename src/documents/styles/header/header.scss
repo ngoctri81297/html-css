@@ -7,7 +7,6 @@
     .circle{
       @include div(5%,100%);
       float: left;
-      text-align: center;
       .fa{
         @include margin(0,53px);
         font-size: 24px;
@@ -18,8 +17,9 @@
       @include div(90%,100%);
       float: left;
       .nav-bar__box{
-        @include div(190px,10px);
-        margin: 61px auto;
+        @include div(225px,10px);
+        margin: 55px 400px;
+        font-family: 'Montserrat';
         font-weight: bold;
         .home{
           font-size: 13.4px;
@@ -28,7 +28,7 @@
         }
         .about{
           font-size: 13.4px;
-          margin-left: 18px;
+          margin-left: 35px;
           float: left;
           color: #ffffff;
         }
@@ -54,6 +54,35 @@
         background: url('/webdesign/hamburger.png') 100% no-repeat;
         float: right;
       }
+    }
+  }
+  .line{
+    @include div(90%,2px);
+    background: #ffffff;
+    opacity: 0.2;
+    margin: auto;
+  }
+  .background__title{
+    @include div(100%,110px);
+    .title{
+      color: #ffffff;
+      font-size:  94.1px;
+      font-family: 'PlayfairDisplay';
+      letter-spacing: 2px;
+      word-spacing: 2px;
+      @include margin(402px, 157px);
+    }
+  }
+  .background__introduce{
+    @include div(836px,0px);
+    text-align: center;
+    .introduce{
+      color: #ffffff;
+      font-size: 13.4px;
+      font-weight: bold;
+      font-family: 'Montserrat';
+      line-height: 1.7;
+      @include margin(462px, 12px);
     }
   }
 }
