@@ -74,15 +74,75 @@
     }
   }
   .background__introduce{
-    @include div(836px,0px);
+    @include div(100%,auto);
+    margin-top: 5px;
     text-align: center;
     .introduce{
+      width: 374px;
       color: #ffffff;
       font-size: 13.4px;
       font-weight: bold;
       font-family: 'Montserrat';
       line-height: 1.7;
-      @include margin(462px, 12px);
+      margin: auto;
+    }
+  }
+  .background__button-really{
+    @include div(100%,142px);
+    .line{
+      @include div(303px,2px);
+      background: #da7074;
+      @include margin(495px,79px);
+      opacity: 0.5;
+      float: left;
+    }
+    .button{
+      width: 125px;
+      position: absolute;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: 'Montserrat';
+      @include margin(582px,65px);
+      text-align: center;
+      letter-spacing: 1.5px;
+      line-height: 2.6;
+      border-radius: 15.5px;
+      background: #da7074;
+    }
+  }
+  .background__vertical-line{
+    @include div(100%,129px);
+    .line-left{
+      @include div(2px,100%);
+      float: left;
+      margin-left: 636px;
+      opacity: 0.5;
+      background: #da7074;
+    }
+    .line-right{
+      @include div(1px,100%);
+      float: right;
+      margin-right: 649px;
+      margin-top: 13px;
+      background: #da7074;
+    }
+  }
+  .background__play-button{
+    @include div(100%,auto);
+    .button{
+      @include div(54px,55px);
+      @include margin(610px,36px);
+      border: #ffffff solid 1px;
+      border-radius: 50%;
+      position: absolute;
+      .triangle{
+        @include div(30px,30px);
+        @include margin(13px,13px);
+        background-image: url('/../webdesign/play-icon.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
     }
   }
 }
