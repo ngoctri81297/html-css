@@ -116,14 +116,14 @@
     .line-left{
       @include div(2px,100%);
       float: left;
-      margin-left: 636px;
+      margin-left: 640px;
       opacity: 0.5;
       background: #da7074;
     }
     .line-right{
       @include div(1px,100%);
       float: right;
-      margin-right: 649px;
+      margin-right: 645px;
       margin-top: 13px;
       background: #da7074;
     }
@@ -132,7 +132,7 @@
     @include div(100%,auto);
     .button{
       @include div(54px,55px);
-      @include margin(610px,36px);
+      @include margin(616px,36px);
       border: #ffffff solid 1px;
       border-radius: 50%;
       position: absolute;
