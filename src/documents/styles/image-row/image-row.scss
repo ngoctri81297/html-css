@@ -1,0 +1,32 @@
+.image-row{
+  @include div(100%,335px);
+  float: left;
+  .row-one,.row-two,.row-three,.row-four{
+    @include div(25%,100%);
+    float: left;
+    .introduce{
+      @include div(100%,33px);
+      color: #ffffff;
+      font-family: 'Montserrat';
+      line-height: 1.67;
+      margin: auto;
+      margin-top: 230px;
+      .title{
+        font-size: 12.1px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        text-align: center;
+      }
+      .mini{
+        font-size: 11.5px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+  .row-one{background: url('/../webdesign/img-row/row-one.png') 100% no-repeat;}
+  .row-two{background: url('/../webdesign/img-row/row-two.png') 100% no-repeat;}
+  .row-three{background: url('/../webdesign/img-row/row-three.png') 100% no-repeat;}
+  .row-four{background: url('/../webdesign/img-row/row-four.png') 100% no-repeat;}
+}
