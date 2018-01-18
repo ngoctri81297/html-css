@@ -1,0 +1,24 @@
+.content{
+  @include div(100%,270px);
+  float: left;
+  .content-one,.content-two,.content-three,.content-four{
+    float: left;
+    margin-top: 76px;
+  }
+  .content-one{
+    margin-left: 132px;
+    .follow{
+      font-size: 10.4px;
+      letter-spacing: 0.8;
+      font-weight: bold;
+      font-family: 'Montserrat';
+      margin-bottom: 30px;
+    }
+    .list{
+      color: #565656;
+      line-height: 23px;
+      font-style: italic;
+      font-size: 13.4px;
+    }
+  }
+}
