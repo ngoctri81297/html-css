@@ -4,10 +4,7 @@
   .content-one,.content-two,.content-three,.content-four{
     float: left;
     margin-top: 76px;
-  }
-  .content-one{
-    margin-left: 132px;
-    .follow{
+    .follow,.getto,.locations,.our{
       font-size: 10.4px;
       letter-spacing: 0.8;
       font-weight: bold;
@@ -19,6 +16,14 @@
       line-height: 23px;
       font-style: italic;
       font-size: 13.4px;
+    }
+  }
+  .content-one{margin-left: 130px;}
+  .content-two{margin-left: 173px;}
+  .content-three{margin-left: 175px;}
+  .content-four{margin-left: 193px;
+    .paragraph{
+      width: 318px;
     }
   }
 }
