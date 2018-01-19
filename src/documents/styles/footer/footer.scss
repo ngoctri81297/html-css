@@ -1,0 +1,14 @@
+.footer{
+  @include div(100%,65px);
+  background: #000000;
+  float: left;
+  text-align: center;
+  .copyright{
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    color: rgba(255,255,255,0.5);
+    line-height: 2;
+    margin-top: 21px;
+  }
+}
