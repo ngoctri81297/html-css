@@ -1,16 +1,17 @@
 .image-row{
-  @include div(100%,335px);
-  float: left;
+  height: 100%;
+  .col-lg-3{
+    height: 100%;
+  }
   .row-one,.row-two,.row-three,.row-four{
-    @include div(25%,100%);
-    float: left;
     .introduce{
-      @include div(100%,33px);
+      width: 100%;
       color: #ffffff;
       font-family: 'Montserrat';
       line-height: 1.67;
       margin: auto;
       margin-top: 230px;
+      display: inline-block;
       .title{
         font-size: 12.1px;
         font-weight: bold;
@@ -25,8 +26,8 @@
       }
     }
   }
-  .row-one{background: url('/../webdesign/img-row/row-one.png') 100% no-repeat;}
-  .row-two{background: url('/../webdesign/img-row/row-two.png') 100% no-repeat;}
-  .row-three{background: url('/../webdesign/img-row/row-three.png') 100% no-repeat;}
-  .row-four{background: url('/../webdesign/img-row/row-four.png') 100% no-repeat;}
+.row-one{background: url('/../webdesign/img-row/row-one.png') 100% no-repeat;}
+.row-two{background: url('/../webdesign/img-row/row-two.png') 100% no-repeat;}
+.row-three{background: url('/../webdesign/img-row/row-three.png') 100% no-repeat;}
+.row-four{background: url('/../webdesign/img-row/row-four.png') 100% no-repeat;}
 }
