@@ -2,7 +2,7 @@
   margin-left: $left;
   margin-top: $top;
 }
-@mixin div($width,$height){
+@mixin size($width,$height){
   width: $width;
   height: $height;
 }
