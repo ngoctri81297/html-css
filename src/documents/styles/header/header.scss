@@ -1,11 +1,11 @@
 .background{
-  @include div(100%,861px);
+  @include size(100%,861px);
   background: url('/../webdesign/background.png') 100% no-repeat;
   .header{
-    @include div(90%,130px);
+    @include size(90%,130px);
     margin: auto;
     .circle{
-      @include div(5%,100%);
+      @include size(5%,100%);
       float: left;
       .fa{
         @include margin(0,53px);
@@ -14,10 +14,10 @@
       }
     }
     .nav-bar{
-      @include div(90%,100%);
+      @include size(90%,100%);
       float: left;
       .nav-bar__box{
-        @include div(225px,10px);
+        @include size(225px,10px);
         margin: 55px 400px;
         font-family: 'Montserrat';
         font-weight: bold;
@@ -49,7 +49,7 @@
         float: left;
       }
       .hamburger-icon{
-        @include div(24px,13px);
+        @include size(24px,13px);
         @include margin(0,57px);
         background: url('/webdesign/hamburger.png') 100% no-repeat;
         float: right;
@@ -57,13 +57,13 @@
     }
   }
   .line{
-    @include div(90%,2px);
+    @include size(90%,2px);
     background: #ffffff;
     opacity: 0.2;
     margin: auto;
   }
   .background__title{
-    @include div(100%,110px);
+    @include size(100%,110px);
     .title{
       color: #ffffff;
       font-size:  94.1px;
@@ -74,7 +74,7 @@
     }
   }
   .background__introduce{
-    @include div(100%,auto);
+    @include size(100%,auto);
     margin-top: 5px;
     text-align: center;
     .introduce{
@@ -88,9 +88,9 @@
     }
   }
   .background__button-really{
-    @include div(100%,142px);
+    @include size(100%,142px);
     .line{
-      @include div(303px,2px);
+      @include size(303px,2px);
       background: #da7074;
       @include margin(495px,79px);
       opacity: 0.5;
@@ -112,16 +112,16 @@
     }
   }
   .background__vertical-line{
-    @include div(100%,129px);
+    @include size(100%,129px);
     .line-left{
-      @include div(2px,100%);
+      @include size(2px,100%);
       float: left;
       margin-left: 640px;
       opacity: 0.5;
       background: #da7074;
     }
     .line-right{
-      @include div(1px,100%);
+      @include size(1px,100%);
       float: right;
       margin-right: 645px;
       margin-top: 13px;
@@ -129,15 +129,15 @@
     }
   }
   .background__play-button{
-    @include div(100%,auto);
+    @include size(100%,auto);
     .button{
-      @include div(54px,55px);
+      @include size(54px,55px);
       @include margin(616px,36px);
       border: #ffffff solid 1px;
       border-radius: 50%;
       position: absolute;
       .triangle{
-        @include div(30px,30px);
+        @include size(30px,30px);
         @include margin(13px,13px);
         background-image: url('/../webdesign/play-icon.png');
         background-size: 100%;
