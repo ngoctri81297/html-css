@@ -1,29 +1,88 @@
 .content{
-  @include div(100%,270px);
-  float: left;
-  .content-one,.content-two,.content-three,.content-four{
-    float: left;
-    margin-top: 76px;
-    .follow,.getto,.locations,.our{
-      font-size: 10.4px;
-      letter-spacing: 0.8;
-      font-weight: bold;
-      font-family: 'Montserrat';
-      margin-bottom: 30px;
+  margin: auto;
+  .row{
+    .col-lg-3{
+      padding: 0;
     }
-    .list{
-      color: #565656;
-      line-height: 23px;
-      font-style: italic;
-      font-size: 13.4px;
+    .content-one{
+      .social{
+        margin-top: 76px;
+        margin-left: 30px;
+        .follow{
+          font-size: 11.4px;
+          letter-spacing: 0.8;
+          font-weight: bold;
+          font-family: 'Montserrat';
+          margin-bottom: 25px;
+        }
+        .list{
+          color: #565656;
+          line-height: 10px;
+          font-style: italic;
+          font-size: 12.4px;
+        }
+      }
     }
-  }
-  .content-one{margin-left: 130px;}
-  .content-two{margin-left: 173px;}
-  .content-three{margin-left: 175px;}
-  .content-four{margin-left: 193px;
-    .paragraph{
-      width: 318px;
+    .content-two{
+      .about-us{
+        margin-top: 76px;
+        margin-left: 30px;
+        .getto{
+          font-size: 11.4px;
+          letter-spacing: 0.8;
+          font-weight: bold;
+          font-family: 'Montserrat';
+          margin-bottom: 25px;
+        }
+        .list{
+          color: #565656;
+          line-height: 10px;
+          font-style: italic;
+          font-size: 12.4px;
+        }
+      }
     }
-  }
+    .content-three{
+      .location{
+        margin-top: 76px;
+        margin-left: 30px;
+        .locations{
+          font-size: 11.4px;
+          letter-spacing: 0.8;
+          font-weight: bold;
+          font-family: 'Montserrat';
+          margin-bottom: 25px;
+        }
+        .list{
+          color: #565656;
+          line-height: 10px;
+          font-style: italic;
+          font-size: 12.4px;
+        }
+      }
+    }
+    .content-four{
+      .para{
+        margin-top: 76px;
+        margin-left: 30px;
+        .our{
+          font-size: 11.4px;
+          letter-spacing: 0.8;
+          font-weight: bold;
+          font-family: 'Montserrat';
+          margin-bottom: 25px;
+        }
+        .list{
+          color: #565656;
+          line-height: 10px;
+          font-style: italic;
+          font-size: 12.4px;
+        }
+        .paragraph{
+          width: 277px;
+          line-height: 20px;
+        }
+      }
+    }
+}
 }
