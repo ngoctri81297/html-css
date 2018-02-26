@@ -1,8 +1,9 @@
 .footer{
-  @include div(100%,65px);
+  height: 65px;
   background: #000000;
   float: left;
   text-align: center;
+  margin-top: 20px;
   .copyright{
     font-family: Arial, sans-serif;
     font-size: 11px;
