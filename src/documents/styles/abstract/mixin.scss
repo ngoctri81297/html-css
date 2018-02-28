@@ -1,0 +1,23 @@
+@mixin margin($left,$top){
+  margin-left: $left;
+  margin-top: $top;
+}
+@mixin size($width,$height){
+  width: $width;
+  height: $height;
+}
+//content
+@mixin content-title($font-size,$letter-space,$bold,$family,$bottom){
+  font-size: $font-size;
+  letter-spacing: $letter-space;
+  font-weight: $bold;
+  font-family: $family;
+  margin-bottom: $bottom;
+}
+@mixin content-list($color,$line-height,$style,$font-size){
+  color: $color;
+  line-height: $line-height;
+  font-style: $style;
+  font-size: $font-size;
+}
+
