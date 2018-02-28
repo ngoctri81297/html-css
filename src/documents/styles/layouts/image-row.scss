@@ -1,0 +1,38 @@
+.image-row{
+  height: 100%;
+  .col-md-3{
+    height: 327px;
+    .introduce{
+      width: 100%;
+      color: $color-white;
+      font-family: $font-montserrat;
+      line-height: 1.67;
+      margin: auto;
+      margin-top: 230px;
+    .title{
+        font-size: 12.1px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        text-align: center;
+      }
+    .mini{
+        font-size: 11.5px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+  .row-one{background: url('/../webdesign/img-row/row-one.png');}
+  .row-two{background: url('/../webdesign/img-row/row-two.png');}
+  .row-three{background: url('/../webdesign/img-row/row-three.png');}
+  .row-four{background: url('/../webdesign/img-row/row-four.png');}
+  .row-one,.row-two,.row-three,.row-four{
+    background-size: 100% 100%;
+  }
+}
+//.row-one{background: url('/../webdesign/img-row/row-one.png');}
+//.row-two{background: url('/../webdesign/img-row/row-two.png');}
+//.row-three{background: url('/../webdesign/img-row/row-three.png');}
+//.row-four{background: url('/../webdesign/img-row/row-four.png');}
+
