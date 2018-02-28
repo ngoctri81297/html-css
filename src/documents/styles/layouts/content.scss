@@ -1,0 +1,52 @@
+.content{
+  margin: auto;
+  .row{
+    .content-one{
+      .social{
+        @include margin(30px,76px);
+        .follow{
+          @include content-title(11.4px,0.8,bold,$font-montserrat,25px);
+        }
+        .list{
+          @include content-list($list-item-color,20px,italic,12.4px);
+        }
+      }
+    }
+    .content-two{
+      .about-us{
+        @include margin(30px,76px);
+        .getto{
+          @include content-title(11.4px,0.8,bold,$font-montserrat,25px);
+        }
+        .list{
+          @include content-list($list-item-color,20px,italic,12.4px);
+        }
+      }
+    }
+    .content-three{
+      .location{
+        @include margin(30px,76px);
+        .locations{
+          @include content-title(11.4px,0.8,bold,$font-montserrat,25px);
+        }
+        .list{
+          @include content-list($list-item-color,20px,italic,12.4px);
+        }
+      }
+    }
+    .content-four{
+      .para{
+        @include margin(30px,76px);
+        .our{
+          @include content-title(11.4px,0.8,bold,$font-montserrat,25px);
+        }
+        .list{
+          @include content-list($list-item-color,20px,italic,12.4px);
+        }
+        .paragraph{
+          line-height: 15px;
+        }
+      }
+    }
+}
+}
