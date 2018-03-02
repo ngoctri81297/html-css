@@ -1,147 +1,27 @@
-.background{
-  @include size(100%,861px);
-  background: url('/../webdesign/background.png') 100% no-repeat;
-  .header{
-    @include size(90%,130px);
-    margin: auto;
-    .circle{
-      @include size(5%,100%);
-      float: left;
-      .fa{
-        @include margin(0,53px);
+.header{
+  padding: 0;
+  background-image: url('../webdesign/background.png');
+  .nav-bar{
+    padding: 0;
+    height: 130px;
+    .inner{
+      .circle{
         font-size: 24px;
-        color: #ffffff;
-      }
-    }
-    .nav-bar{
-      @include size(90%,100%);
-      float: left;
-      .nav-bar__box{
-        @include size(225px,10px);
-        margin: 55px 400px;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        .home{
-          font-size: 13.4px;
-          float: left;
-          color: #ffffff;
-        }
-        .about{
-          font-size: 13.4px;
-          margin-left: 35px;
-          float: left;
-          color: #ffffff;
-        }
-        .contact{
-          font-size: 13.4px;
-          float: right;
-          color: #ffffff;
-        }
-      }
-    }
-    .search{
-      @extend .circle;
-      .fa{
-        @include margin(0,53px);
-        font-size: 16.5px;
-        color: #ffffff;
-        line-height: 1.25;
         float: left;
+        padding-top: 53px;
+        a{
+          color: $color-white;
+        }
       }
-      .hamburger-icon{
-        @include size(24px,13px);
-        @include margin(0,57px);
-        background: url('/webdesign/hamburger.png') 100% no-repeat;
-        float: right;
-      }
-    }
-  }
-  .line{
-    @include size(90%,2px);
-    background: #ffffff;
-    opacity: 0.2;
-    margin: auto;
-  }
-  .background__title{
-    @include size(100%,110px);
-    .title{
-      color: #ffffff;
-      font-size:  94.1px;
-      font-family: 'PlayfairDisplay';
-      letter-spacing: 2px;
-      word-spacing: 2px;
-      @include margin(402px, 157px);
-    }
-  }
-  .background__introduce{
-    @include size(100%,auto);
-    margin-top: 5px;
-    text-align: center;
-    .introduce{
-      width: 374px;
-      color: #ffffff;
-      font-size: 13.4px;
-      font-weight: bold;
-      font-family: 'Montserrat';
-      line-height: 1.7;
-      margin: auto;
-    }
-  }
-  .background__button-really{
-    @include size(100%,142px);
-    .line{
-      @include size(303px,2px);
-      background: #da7074;
-      @include margin(495px,79px);
-      opacity: 0.5;
-      float: left;
-    }
-    .button{
-      width: 125px;
-      position: absolute;
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: bold;
-      font-family: 'Montserrat';
-      @include margin(582px,65px);
-      text-align: center;
-      letter-spacing: 1.5px;
-      line-height: 2.6;
-      border-radius: 15.5px;
-      background: #da7074;
-    }
-  }
-  .background__vertical-line{
-    @include size(100%,129px);
-    .line-left{
-      @include size(2px,100%);
-      float: left;
-      margin-left: 640px;
-      opacity: 0.5;
-      background: #da7074;
-    }
-    .line-right{
-      @include size(1px,100%);
-      float: right;
-      margin-right: 645px;
-      margin-top: 13px;
-      background: #da7074;
-    }
-  }
-  .background__play-button{
-    @include size(100%,auto);
-    .button{
-      @include size(54px,55px);
-      @include margin(616px,36px);
-      border: #ffffff solid 1px;
-      border-radius: 50%;
-      position: absolute;
-      .triangle{
-        @include size(30px,30px);
-        @include margin(13px,13px);
-        background-image: url('/../webdesign/play-icon.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
+      .nav-list-item{
+        padding-top: 51.5px;
+        .item{
+          text-decoration: none;
+          color: $color-white;
+          font-family: $font-montserrat;
+          font-size: 11.4px;
+          font-weight: bold;
+        }
       }
     }
   }
