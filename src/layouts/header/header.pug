@@ -1,13 +1,19 @@
 .container-fluid.text-center.header
   .container.mb-auto.nav-bar
     .inner
-      .circle
-        a(href="#")
-          i(class="fa fa-circle-o" aria-hidden="true")
       .nav-list-item.nav.justify-content-center
-        a(class="nav-link item" href="#") HOME
-        a(class="nav-link item" href="#") ABOUT
-        a(class="nav-link item" href="#") CONTACT
+        .nav-left
+          a(class="nav-link circle" href="#")
+            i(class="fa fa-circle-o" aria-hidden="true")
+        .nav-mid.nav.justify-content-center
+          a(class="nav-link item" href="#") HOME
+          a(class="nav-link item" href="#") ABOUT
+          a(class="nav-link item" href="#") CONTACT
+        .nav-right
+          a(class="nav-link search" href="#")
+            i(class="fa fa-search" aria-hidden="true")
+          a(class="nav-link hamburger" href="#")
+            i(class="fa fa-bars" aria-hidden="true")
 .container-fluid
   .row.image-row
     .col-md-3.row-one
