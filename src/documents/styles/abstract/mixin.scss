@@ -14,10 +14,10 @@
   font-family: $family;
   margin-bottom: $bottom;
 }
-@mixin content-list($color,$line-height,$style,$font-size){
-  color: $color;
+@mixin content-list($font-size,$line-height,$style,$color){
+  font-size: $font-size;
   line-height: $line-height;
   font-style: $style;
-  font-size: $font-size;
+  color: $color;
 }
 

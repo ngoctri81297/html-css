@@ -1,37 +1,37 @@
 .container-fluid.text-center.header
-  .container.mb-auto.nav-bar
-    .inner
-      .nav-list-item.nav.justify-content-center
-        .nav-left
-          a(class="nav-link circle" href="#")
-            i(class="fa fa-circle-o" aria-hidden="true")
-        .nav-mid.nav.justify-content-center
-          a(class="nav-link item" href="#") HOME
-          a(class="nav-link item" href="#") ABOUT
-          a(class="nav-link item" href="#") CONTACT
-        .nav-right
-          a(class="nav-link search" href="#")
-            i(class="fa fa-search" aria-hidden="true")
-          a(class="nav-link hamburger" href="#")
-            i(class="fa fa-bars" aria-hidden="true")
+  .topnav#myTopnav.nav.justify-content-center
+    a(href="#" class="circle-icon")
+      i(class="fa fa-circle-o")
+    a(href="#" class="nav__item home") Home
+    a(href="#" class="nav__item") About
+    a(href="#" class="nav__item") Contact
+    a(href="#" class="search-icon")
+      i(class="fa fa-search")
+    a(href="javascript:void(0)" style="font-size:15px;" class="icon" onclick="myFunction()") &#9776;
+  .horizontal
+  .header__title
+    p.text-center.header__title--main Web Design
+    p.text-center.header__title--describe Fusce dapibus, tellus ac cursus commodo, tortor mauris
+      |  condimentum , ut fermentum massa justo sit amet
+      |  erat a ante venenatis dapibus posuere velit
 .container-fluid
-  .row.image-row
-    .col-md-3.row-one
-      .introduce
-        p.title AMET CODIMENTUM
-        p.mini Dolor
-    .col-md-3.row-two
-      .introduce
-        p.title LOREM CURSUS
-        p.mini Ligula
-    .col-md-3.row-three
-      .introduce
-        p.title CONDIMENTUM ULTRICIES
-        p.mini Consectetur
-    .col-md-3.row-four
-      .introduce
-        p.title RIDICULUS ORNARE
-        p.mini Ullamcorper
+  .row.image__row
+    .col-md-3.image__row--one
+      .sub
+        p.sub__title AMET CODIMENTUM
+        p.sub__describe Dolor
+    .col-md-3.image__row--two
+      .sub
+        p.sub__title LOREM CURSUS
+        p.sub__describe Ligula
+    .col-md-3.image__row--three
+      .sub
+        p.sub__title CONDIMENTUM ULTRICIES
+        p.sub__describe Consectetur
+    .col-md-3.image__row--four
+      .sub
+        p.sub__title RIDICULUS ORNARE
+        p.sub__describe Ullamcorper
 
 
 
