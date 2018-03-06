@@ -4,6 +4,7 @@
   background-size   :    cover;
   background-repeat :    no-repeat;
   .nav-bar {
+    overflow    :   hidden;
   & .nav__item{
     width       :   8%;
     font-family :   $font-montserrat;
@@ -55,16 +56,18 @@
   }
 
   @media screen and (max-width: 800px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
+    &.responsive {position: relative;}
+    &.responsive .icon {
       position    :   absolute;
       right       :   0;
       top         :   0;
+      text-align  :   right;
     }
-    .topnav.responsive a {
+    &.responsive a {
       float       :   none;
       display     :   block;
       text-align  :   left;
+      padding     :   10px;
     }
   }
 }
@@ -115,11 +118,11 @@
       }
     }
   }
-  &--one    {background:  url('/../webdesign/img-row/row-one.png')  ;}
-  &--two    {background:  url('/../webdesign/img-row/row-two.png')  ;}
-  &--three  {background:  url('/../webdesign/img-row/row-three.png');}
-  &--four   {background:  url('/../webdesign/img-row/row-four.png') ;}
-  &--one,&--two,&--three,&--four  {
+  &--col-one    {background:  url('/../webdesign/img-row/row-one.png')  ;}
+  &--col-two    {background:  url('/../webdesign/img-row/row-two.png')  ;}
+  &--col-three  {background:  url('/../webdesign/img-row/row-three.png');}
+  &--col-four   {background:  url('/../webdesign/img-row/row-four.png') ;}
+  &--col-one,&--col-two,&--col-three,&--col-four  {
     background-size:  100% 100%;
   }
 }
