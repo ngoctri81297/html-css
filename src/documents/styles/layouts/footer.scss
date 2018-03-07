@@ -1,5 +1,5 @@
 .content  {
-  margin    :   auto;
+  margin            :   auto;
   .row  {
     .content__one {
       &--social {
@@ -33,17 +33,17 @@
   }
 }
 .footer {
-  height      :   65px;
-  background  :   $color-black;
-  float       :   left;
-  text-align  :   center;
-  margin-top  :   30px;
+  height            :   65px;
+  background        :   $color-black;
+  float             :   left;
+  text-align        :   center;
+  margin-top        :   30px;
   &__copyright  {
-    font-family   :   $font-arial;
-    font-size     :   11px;
-    font-style    :   italic;
-    color         :   $copyright-color;
-    line-height   :   2;
-    margin-top    :   21px;
+    font-family     :   $font-arial;
+    font-size       :   11px;
+    font-style      :   italic;
+    color           :   $copyright-color;
+    line-height     :   2;
+    margin-top      :   21px;
   }
 }
