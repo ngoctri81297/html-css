@@ -1,0 +1,20 @@
+{
+  "name": "bower.json",
+  "description": "html-css project",
+  "main": "node_modules/.bin/docpad-server",
+  "authors": [
+    "ngoctri81297 <ngoctri81297@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ngoctri81297/html-css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
