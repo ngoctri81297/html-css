@@ -3,26 +3,31 @@
   background-image        :   url('../webdesign/background.png');
   background-size         :   cover;
   background-repeat       :   no-repeat;
+
   .nav-bar {
     overflow              :   hidden;
+
   & .nav__item{
     width                 :   8%;
     font-family           :   $font-montserrat;
     font-size             :   13px;
     font-weight           :   bold;
   }
+
   & .circle-icon {
     width                 :   35%;
     font-size             :   24px;
     text-align            :   left;
     line-height           :   0vh;
   }
+
   & .search-icon {
     width                 :   36%;
     font-size             :   16.1px;
     text-align            :   right;
     line-height           :   2vh;
   }
+
   & a {
     color                 :   $color-white;
     float                 :   left;
@@ -38,14 +43,17 @@
   }
 
   @media screen and (max-width: 800px) {
+
     & a:not(.home) {
       display             :   none;
     }
+
     & a.home{
       float               :   left;
       padding             :   13px 16px;
       text-align          :   left;
     }
+
     & a.icon {
       width               :   90%;
       float               :   right;
@@ -57,12 +65,14 @@
 
   @media screen and (max-width: 800px) {
     &.responsive {position: relative;}
+
     &.responsive .icon {
       top                 :   0;
       right               :   0;
       position            :   absolute;
       text-align          :   right;
     }
+
     &.responsive a {
       float               :   none;
       display             :   block;
@@ -71,19 +81,23 @@
     }
   }
 }
+
   .horizontal{
     @include size(92%,1px);
     margin                :   auto;
     opacity               :   0.3;
     background-color      :   $color-white;
   }
+
   .header__title  {
     padding               :   130px 0px 63px 0px;
+
     &--main{
       color               :   $color-white;
       font-size           :   93px;
       font-family         :   $font-playfair-display;
     }
+
     &--describe{
       width               :   374px;
       color               :   $color-white;
@@ -92,14 +106,17 @@
       font-family         :   $font-montserrat;
     }
   }
+
   .header__button{
     padding: 5px;
+
     &--line{
       @include size(300px,2px);
       background          :   $color-pink;
       opacity             :   0.5;
       margin              :   auto;
     }
+
     .really-button{
       border-radius       :   15.5px;
       width               :   111px;
@@ -113,15 +130,19 @@
       position            :   relative;
     }
   }
+
   .vertical__line{
+
     @include size(4px,142px);
     padding               :   38px 0px 0px 0px;
     margin                :   auto;
+
     &--left{
       @include size(1px,129px);
       background          :   $color-pink;
       float               :   left;
     }
+
     &--right{
       @include size(1px,129px);
       top                 :   13px;
@@ -130,54 +151,24 @@
       float               :   right;
     }
   }
+
   .button__play{
     @include size(60px,142px);
     margin                :   auto;
     padding               :   62px 2px 25px 2px;
+
     &--circle{
       @include size(54px,55px);
       margin              :   auto;
       border              :   solid 1px $color-white;
       border-radius       :   50%;
+
       img{
         width             :   33px;
         height            :   36px;
         margin            :   9px 0px 0px 2px;
       }
     }
-  }
-}
-.image__row {
-  height                  :   100%;
-  .col-md-3 {
-    height                :   327px;
-    .sub  {
-      width               :   100%;
-      color               :   $color-white;
-      font-family         :   $font-montserrat;
-      line-height         :   1.67;
-      margin              :   auto;
-      margin-top          :   230px;
-    &__title  {
-        font-size         :   12.1px;
-        font-weight       :   bold;
-        letter-spacing    :   1.2px;
-        text-align        :   center;
-      }
-    &__describe {
-        font-size         :   11.5px;
-        font-weight       :   bold;
-        font-style        :   italic;
-        text-align        :   center;
-      }
-    }
-  }
-  &--col-one    {background:  url('/../webdesign/img-row/row-one.png')  ;}
-  &--col-two    {background:  url('/../webdesign/img-row/row-two.png')  ;}
-  &--col-three  {background:  url('/../webdesign/img-row/row-three.png');}
-  &--col-four   {background:  url('/../webdesign/img-row/row-four.png') ;}
-  &--col-one,&--col-two,&--col-three,&--col-four  {
-    background-size       :  100% 100%;
   }
 }
 

@@ -1,43 +1,10 @@
-.content  {
-  margin            :   auto;
-  .row  {
-    .content__one {
-      &--social {
-        @include  margin(30px,76px);
-        .follow { @include  content-title(11.4px,0.8,bold,$font-montserrat,25px);}
-        .list   { @include  content-list(12.4px,20px,italic,$list-item-color);}
-      }
-    }
-    .content__two  {
-      &--about-us {
-        @include  margin(30px,76px);
-        .getto  { @include  content-title(11.4px,0.8,bold,$font-montserrat,25px);}
-        .list   { @include  content-list(12.4px,20px,italic,$list-item-color);}
-      }
-    }
-    .content__three  {
-      &--location {
-        @include  margin(30px,76px);
-        .locations  { @include  content-title(11.4px,0.8,bold,$font-montserrat,25px);}
-        .list       { @include  content-list(12.4px,20px,italic,$list-item-color);}
-      }
-    }
-    .content__four {
-      &--paragraph {
-        @include  margin(30px,76px);
-        .our  { @include  content-title(11.4px,0.8,bold,$font-montserrat,25px);}
-        .list { @include  content-list(12.4px,20px,italic,$list-item-color);}
-        .text { line-height   :   15px;}
-      }
-    }
-  }
-}
 .footer {
   height            :   65px;
   background        :   $color-black;
   float             :   left;
   text-align        :   center;
   margin-top        :   30px;
+
   &__copyright  {
     font-family     :   $font-arial;
     font-size       :   11px;
