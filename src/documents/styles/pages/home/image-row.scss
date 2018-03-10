@@ -1,0 +1,41 @@
+.image__row {
+  height                  :   100%;
+
+  .col-md-3 {
+    height                :   327px;
+
+    .sub  {
+      width               :   100%;
+      color               :   $color-white;
+      font-family         :   $font-montserrat;
+      line-height         :   1.67;
+      margin              :   auto;
+      margin-top          :   230px;
+
+      &__title  {
+        font-size         :   12.1px;
+        font-weight       :   bold;
+        letter-spacing    :   1.2px;
+        text-align        :   center;
+      }
+
+      &__describe {
+        font-size         :   11.5px;
+        font-weight       :   bold;
+        font-style        :   italic;
+        text-align        :   center;
+      }
+    }
+  }
+  &--col-one    {background:  url('/../webdesign/img-row/row-one.png')  ;}
+
+  &--col-two    {background:  url('/../webdesign/img-row/row-two.png')  ;}
+
+  &--col-three  {background:  url('/../webdesign/img-row/row-three.png');}
+
+  &--col-four   {background:  url('/../webdesign/img-row/row-four.png') ;}
+
+  &--col-one,&--col-two,&--col-three,&--col-four  {
+    background-size       :  100% 100%;
+  }
+}
