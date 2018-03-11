@@ -1,23 +1,29 @@
-@mixin margin($left,$top){
-  margin-left: $left;
-  margin-top: $top;
+@mixin margin($left, $top) {
+  margin-left           :   $left;
+  margin-top            :   $top;
 }
 @mixin size($width,$height){
-  width: $width;
-  height: $height;
+  width                 :   $width;
+  height                :   $height;
 }
 //content
-@mixin content-title($font-size,$letter-space,$bold,$family,$bottom){
-  font-size: $font-size;
-  letter-spacing: $letter-space;
-  font-weight: $bold;
-  font-family: $family;
-  margin-bottom: $bottom;
+@mixin content-title($font-size, $letter-space, $bold, $family, $bottom){
+  font-size             :   $font-size;
+  letter-spacing        :   $letter-space;
+  font-weight           :   $bold;
+  font-family           :   $family;
+  margin-bottom         :   $bottom;
 }
-@mixin content-list($font-size,$line-height,$style,$color){
-  font-size: $font-size;
-  line-height: $line-height;
-  font-style: $style;
-  color: $color;
+@mixin content-list($font-size, $line-height, $style, $color){
+  font-size             :   $font-size;
+  line-height           :   $line-height;
+  font-style            :   $style;
+  color                 :   $color;
+}
+@mixin font($font-path, $font-family) {
+  @font-face  {
+    font-family         :   $font-family;
+    src                 :   url("#{$font-path}/#{$font-family}/#{$font-family}.ttf") format("truetype");
+  }
 }
 
