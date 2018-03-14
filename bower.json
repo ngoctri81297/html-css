@@ -1,0 +1,20 @@
+{
+  "name": "practice-three",
+  "description": "New DocPad project without using a skeleton",
+  "main": "node_modules/.bin/docpad-server",
+  "authors": [
+    "bao tri"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ngoctri81297/html-css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
