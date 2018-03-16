@@ -8,7 +8,7 @@ docpadConfig = {
     plugins:
         raw:
           jquery:
-            command: ['rsync', '-v', 'bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss', 'out/js/']
+            command: ['rsync', '-v', 'bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'out/js/';]
 }
 
 # Export the DocPad Configuration
